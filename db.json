@@ -1,0 +1,43 @@
+{
+    "blogs": [
+        {
+            "id": "1",
+            "title": "HTML Nedir?",
+            "description": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+            "content": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
+            "categoryId": "1",
+            "userId": "1"
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "html"
+        },
+        {
+            "id": "2",
+            "name": "css"
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "username": "superadmin",
+            "password": "superadmin",
+            "role": "admin"
+        },
+        {
+            "id": "2",
+            "username": "blogger1",
+            "password": "blogger1",
+            "role": "blogger"
+        },
+        {
+            "id": "3",
+            "username": "blogger2",
+            "password": "blogger2",
+            "role": "blogger"
+        }
+    ]
+}
