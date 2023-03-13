@@ -1,12 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
+import { useSelector } from "react-redux";
+import Header from "../components/Header";
 
-const Home =()=>{
-    return(
-        <div>
+import CategoriesSection from "../components/CategoriesSection";
 
-        </div>
-    )
-}
+const Home = () => {
+  const { loginState } = useSelector((state) => state);
+  return (
+    <div>
+    <Header/>
+     <main className="mainContainer">
+        <CategoriesSection />
+        <section className="rightSide"></section>
+      </main>
+    </div>
+  );
+};
 
-export default Home
+export default Home;

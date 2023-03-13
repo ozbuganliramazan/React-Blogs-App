@@ -8,10 +8,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AdminHome from "./pages/AdminHome";
 import Login from "./pages/Login";
+import Error from "./pages/Error";
 
 /* api stuff */
 import api from "./api/api";
 import endpoints from "./api/endpoints";
+import "./assets/css/main.css";
+import "./assets/css/about.css";
+import "./assets/css/blogDetail.css";
+import "./assets/css/header.css";
 
 /* redux stuff */
 import actionTypes from "./redux/actions/actionTypes";
@@ -71,12 +76,36 @@ function App() {
           payload: "Kullanıcıları çekerken bir hata oluştu",
         })
       );
+    /* read loginState from localstorage */
+    const loginStateFromLocalstorage = JSON.parse(
+      localStorage.getItem("loginState")
+    );
+    if (loginStateFromLocalstorage === null) {
+      localStorage.setItem(
+        "loginState",
+        JSON.stringify({
+          pending: false,
+          success: false,
+          error: false,
+          errorMessage: "",
+          user: null,
+        })
+      );
+    } else {
+      if (loginStateFromLocalstorage.success) {
+        dispatch({
+          type: actionTypes.loginActions.LOGIN_SUCCESS,
+          payload: loginStateFromLocalstorage.user,
+        });
+      }
+    }
   }, []);
 
   if (!blogsState.success || !categoriesState.success || !usersState.success)
     return null;
   /* todo: return error page if datas didn't get fetched */
-  /* if(blogsState.error || categoriesState.error || usersState.error) return  */
+  if (blogsState.error || categoriesState.error || usersState.error)
+    return <Error />;
   return (
     <BrowserRouter>
       <Routes>
