@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+
 import { Form, Button, Container } from "react-bootstrap";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 
 import { useSelector, useDispatch } from "react-redux";
 import actionTypes from "../redux/actions/actionTypes";
@@ -16,7 +17,6 @@ const Login = () => {
   useEffect(() => {
     if (loginState.success) navigate("/");
   }, []);
-  
   const handleLogin = (event) => {
     event.preventDefault();
     const hasUser = usersState.users.find(
@@ -33,19 +33,18 @@ const Login = () => {
     /* login başarılı */
     dispatch({
       type: actionTypes.loginActions.LOGIN_SUCCESS,
-      payload: { username: hasUser.username, role: hasUser.role },
+      payload: { username: hasUser.username, role: hasUser.role,userId:hasUser.id },
     });
     const successLoginState = {
-        pending: false,
-        success: true,
-        error: false,
-        errorMessage: "",
-        user: { username: hasUser.username, role: hasUser.role },
-      };
-      localStorage.setItem("loginState",JSON.stringify(successLoginState))
-      navigate("/");
+      pending: false,
+      success: true,
+      error: false,
+      errorMessage: "",
+      user: { username: hasUser.username, role: hasUser.role,userId:hasUser.id },
+    };
+    localStorage.setItem("loginState",JSON.stringify(successLoginState))
+    navigate("/");
   };
-
   return (
     <div>
       <Container>

@@ -1,57 +1,130 @@
-.aboutMainContainer{
+.aboutMainContainer {
     width: 100%;
     min-height: calc(100vh - 75px);
     padding: 50px;
-}
-
-.aboutDescriptionContainer{
+  }
+  
+  .aboutDescriptionContainer {
     display: flex;
     align-items: center;
     gap: 20px;
     padding: 10px;
     background-color: rgb(217, 217, 217);
     box-shadow: 0px 0px 5px 0px rgb(119, 119, 119);
-}
-.aboutDescriptionImg{
+  }
+  .aboutDescriptionImg {
     display: flex;
-}
-.aboutDescriptionImg img{
+  }
+  .aboutDescriptionImg img {
     width: 150px;
     height: 150px;
     background-color: #fff;
     border-radius: 100%;
-}
-
-.marginTop20{
+  }
+  
+  .marginTop20 {
     margin-top: 10px;
-}
-
-.aboutInfosContainer{
+  }
+  
+  .aboutInfosContainer {
     margin: 20px 0px;
     display: flex;
     gap: 20px;
     background-color: rgb(217, 217, 217);
     box-shadow: 0px 0px 5px 0px rgb(119, 119, 119);
-}
-
-.aboutInfosLeftContainer{
+  }
+  
+  .aboutInfosLeftContainer {
     width: 160px;
     min-height: 300px;
-}
-
-.aboutInfosRightContainer{
-    border: 1px solid;
-    flex: 1;
-}
-.aboutInfosLeftItemContainer{
+  }
+  
+  .aboutInfosRightContainer {
+    width: calc(100% - 180px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aboutInfosLeftItemContainer {
     display: flex;
     gap: 5px;
     padding: 10px 15px;
     align-items: center;
     text-decoration: none;
     color: #000;
-}
-.aboutInfosLeftItemContainer span{
+  }
+  .aboutInfosLeftItemContainer span {
     font-size: 12px;
-    
-}
+  }
+  
+  .projectCardsMainContainer {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  .simpleProjectCardContainer {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  .simpleProjectCardImgContainer {
+    width: 200px;
+    height: 200px;
+  }
+  .simpleProjectCardImgContainer img {
+    width: 100%;
+  }
+  .simpleProjectCardTitle {
+    padding: 10px;
+  }
+  
+  .simpleProjectCardDescription {
+    padding: 10px;
+  }
+  
+  .simpleProjectCardLinkContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .simpleProjectCardLinkContainer a {
+    text-decoration: none;
+    border: 1px solid #65647c;
+    padding: 5px 20px;
+    color: #65647c;
+    transition: all 0.2s linear;
+  }
+  .simpleProjectCardLinkContainer a:hover {
+    background-color: #65647c;
+    color: #fff;
+  }
+  
+  /* RESPONSIVE */
+  
+  @media screen and (min-width: 1200px) {
+    .aboutMainContainer {
+      padding: 50px 200px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .aboutDescriptionContainer {
+      flex-direction: column;
+    }
+    .aboutDescriptionContainer h3,
+    .aboutDescriptionContainer h4 {
+      text-align: center;
+    }
+    .aboutInfosContainer{
+      flex-direction: column-reverse;
+    }
+    .aboutInfosRightContainer{
+      width: 100%;
+    }
+    .aboutInfosLeftContainer{
+      width: 100%;
+      min-height: 0px;
+    }
+  }

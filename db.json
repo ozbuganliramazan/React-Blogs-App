@@ -1,47 +1,92 @@
 {
-    "blogs": [
-        {
-            "id": "1",
-            "title": "HTML Nedir?",
-            "description": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
-            "content": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
-            "categoryId": "1",
-            "userId": "1"
-        }
-    ],
-    "categories": [
-        {
-            "id": "1",
-            "name": "html"
-        },
-        {
-            "id": "2",
-            "name": "css"
-        },
-        {
-            "id": "3",
-            "name": "js"
-          }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "username": "superadmin",
-            "password": "superadmin",
-            "role": "admin"
-        },
-        {
-            "id": "2",
-            "username": "blogger1",
-            "password": "blogger1",
-            "role": "blogger"
-        },
-        {
-            "id": "3",
-            "username": "blogger2",
-            "password": "blogger2",
-            "role": "blogger"
-        }
-    ]
+  "blogs": [
+    {
+      "id": "1",
+      "title": "HTML Nedir?",
+      "description": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "content": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
+      "categoryId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "HTML Elementleri",
+      "description": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "content": "Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.Egestas ligula malesuada nullam metus quam eros ut. Orci non dolor sem tincidunt aliquam venenatis tortor. Ultricies ullamcorper tortor imperdiet vehicula egestas ad tortor, orci praesent curae; mi.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
+      "categoryId": "1",
+      "userId": "2"
+    },
+    {
+      "id": "1680293256832",
+      "title": "dsfgfdgd",
+      "description": "dfgdfgdf",
+      "content": "dfgdfg<div><b>fdgdfg</b></div><div><ol><li><b>dfgdfgf</b></li><li><i>fdgdfgdf</i></li><li><i><u><strike>dfgfdgdgdfgdf</strike></u></i></li></ol></div>",
+      "img": "https://play-lh.googleusercontent.com/RTAZb9E639F4JBcuBRTPEk9_92I-kaKgBMw4LFxTGhdCQeqWukXh74rTngbQpBVGxqo",
+      "categoryId": "2",
+      "userId": "1"
+    },
+    {
+      "id": "1680295704913",
+      "title": "jfgkjhkfgjh",
+      "description": "fghfghgfh",
+      "content": "sdfdsfdsf<div>dsfsdfds</div><div><b>sdfsdfsdf</b></div><div><b><i>sdfsdfsdf</i></b></div><div><ol><li><i style=\"\">sdfsdfsd</i></li><li><i style=\"\"><u>sdfsdfsdf</u></i></li><li><i style=\"\"><u><strike>sdfsdfsdfdsf</strike></u></i></li></ol></div>",
+      "img": "https://www.kozmoslisesi.com/wp-content/uploads/2022/11/JavaScript.jpg",
+      "categoryId": "3",
+      "userId": "2"
+    },
+    {
+      "id": "1680461189355",
+      "title": "html",
+      "description": "merhaba htmr öğreniyorum",
+      "content": "jdjdjjd",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftr.wikipedia.org%2Fwiki%2FHTML&psig=AOvVaw1XoENd1kB0ccZ8cr_umjwV&ust=1680547616196000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKigq-_ti_4CFQAAAAAdAAAAABAD",
+      "categoryId": "1",
+      "userId": "2"
+    },
+    {
+      "id": "1680470274736",
+      "title": "ramazan react öğrniyor",
+      "description": "recat",
+      "content": "yeni",
+      "img": "",
+      "categoryId": "3",
+      "userId": "2"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "html"
+    },
+    {
+      "id": "2",
+      "name": "css"
+    },
+    {
+      "id": "3",
+      "name": "js"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "superadmin",
+      "password": "superadmin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "blogger1",
+      "password": "blogger1",
+      "role": "blogger"
+    },
+    {
+      "id": "3",
+      "username": "blogger2",
+      "password": "blogger2",
+      "role": "blogger"
+    }
+  ]
 }

@@ -44,7 +44,6 @@
 .categoriesList{
     padding-left: 0 !important;
 }
-
 .categoriesList li{
     padding: 10px 25px;
     border-bottom: 1px solid #d5d5d5;
@@ -55,7 +54,6 @@
     color: #565656;
     text-decoration: none;
     transition: all 0.2s linear;
-    
 }
 .categoriesList li:hover{
     background-color: #565656;

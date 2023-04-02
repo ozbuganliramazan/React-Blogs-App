@@ -4,19 +4,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 /* routing stuff */
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-/* pages*/
+/* pages */
 import Home from "./pages/Home";
 import AdminHome from "./pages/AdminHome";
 import Login from "./pages/Login";
 import Error from "./pages/Error";
+import AddBlog from "./pages/AddBlog";
+import BlogDetail from "./pages/BlogDetail";
 
 /* api stuff */
 import api from "./api/api";
 import endpoints from "./api/endpoints";
-import "./assets/css/main.css";
-import "./assets/css/about.css";
-import "./assets/css/blogDetail.css";
-import "./assets/css/header.css";
+import './assets/css/main.css'
+import './assets/css/header.css'
+import './assets/css/blogDetail.css'
+import './assets/css/about.css'
 
 /* redux stuff */
 import actionTypes from "./redux/actions/actionTypes";
@@ -100,7 +102,6 @@ function App() {
       }
     }
   }, []);
-
   if (!blogsState.success || !categoriesState.success || !usersState.success)
     return null;
   /* todo: return error page if datas didn't get fetched */
@@ -110,8 +111,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/admin" element={<AdminHome />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/admin/add-blog" element={<AddBlog />} />
+        <Route path="/blog/:blogId" element={<BlogDetail />} />
       </Routes>
     </BrowserRouter>
   );
